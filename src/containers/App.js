@@ -4,14 +4,14 @@ import style from './App.css';
 import Title from '../components/Title.js';
 
 class App extends React.Component {
-	constructor(props){
-		super(props);
-		this.state = {
-			data: []
-		};
-	}
+    constructor(props) {
+        super(props);
+        this.state = {
+            data: []
+        };
+    }
     
-    addTodo(val){
+    addTodo(val) {
     	const todo = {
     		text: val,
     		id: uuid.v4(),
