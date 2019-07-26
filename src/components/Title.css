@@ -1,15 +1,18 @@
 .title h1 {
-  font-size: 50px;
-  letter-spacing: 3px;
-  padding: 20px;
-  color: white;
-  text-transform: uppercase;
-  margin-top: 10px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
 }
 
 .title p {
-  color: white;
-  font-size: 28px;
-  font-weight: bold;
-  text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
 }
+
+
+  
