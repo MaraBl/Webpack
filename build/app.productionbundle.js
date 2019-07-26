@@ -8527,7 +8527,7 @@ module.exports = function (css) {
 
 exports = module.exports = __webpack_require__(1)(false);
 // Module
-exports.push([module.i, ".H4QrtKelk95IQTVqaJ8hS h1 {\r\n  font-size: 50px;\r\n  letter-spacing: 3px;\r\n  padding: 20px;\r\n  color: white;\r\n  text-transform: uppercase;\r\n  margin-top: 10px;\r\n}\r\n\r\n.H4QrtKelk95IQTVqaJ8hS p {\r\n  color: white;\r\n  font-size: 28px;\r\n  font-weight: bold;\r\n  text-align: center;\r\n}", ""]);
+exports.push([module.i, ".H4QrtKelk95IQTVqaJ8hS h1 {\r\n    font-size: 50px;\r\n    letter-spacing: 3px;\r\n    padding: 20px;\r\n    color: white;\r\n    text-transform: uppercase;\r\n    margin-top: 10px;\r\n}\r\n\r\n.H4QrtKelk95IQTVqaJ8hS p {\r\n    color: white;\r\n    font-size: 28px;\r\n    font-weight: bold;\r\n    text-align: center;\r\n}\r\n\r\n\r\n  ", ""]);
 // Exports
 exports.locals = {
 	"title": "H4QrtKelk95IQTVqaJ8hS"
@@ -8539,7 +8539,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(1)(false);
 // Module
-exports.push([module.i, "._1N-9OpwVTMhkQlNKCJL77h {\r\n\tbackground-color: black;\r\n\tpadding: 10px;\r\n\tmin-width: 300px;\r\n}\r\n\r\n.CHIBZOqqiaRJiVwXDYqbp {\r\n\tpadding: 20px; \r\n\tletter-spacing: 2px;\r\n\tbackground-color: #ac3973;\r\n\tmargin: 15px;\r\n\tborder-radius: 14px; \r\n\tcursor: pointer;\r\n\tfont-size: 20px;\r\n}", ""]);
+exports.push([module.i, "._1N-9OpwVTMhkQlNKCJL77h {\r\n    background-color: black;\r\n    padding: 10px;\r\n    min-width: 300px;\r\n}\r\n\r\n.CHIBZOqqiaRJiVwXDYqbp {\r\n    padding: 20px; \r\n    letter-spacing: 2px;\r\n    background-color: #ac3973;\r\n    margin: 15px;\r\n    border-radius: 14px;\r\n    cursor: pointer;\r\n    font-size: 20px;\r\n}\r\n\r\n  ", ""]);
 // Exports
 exports.locals = {
 	"list": "_1N-9OpwVTMhkQlNKCJL77h",
