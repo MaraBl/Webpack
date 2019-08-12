@@ -5,7 +5,6 @@ import Title from '../components/Title.js';
 import TodoList from '../components/TodoList.js';
 import { hot } from 'react-hot-loader';
 
-
 class App extends React.Component {
 	constructor(props) {
 		super(props);
@@ -30,18 +29,17 @@ class App extends React.Component {
 		const data = [...this.state.data, todo];
 		this.setState({data});
 	}
-    removeTodo(id) {
-    	const remainder = this.state.data.filter(todo => todo.id !== id);
-    	this.setState({data: remainder});
-    }
-    render() {
-    	return (
-    		<div className={style.TodoApp}>
-    		<Title title={'My board'} numberOfTasks={this.state.data.length}/>
-    		<TodoList items={this.state.data} remove={this.removeTodo.bind(this)}/>
-    		</div>
-    	);
-    }
+	removeTodo(id) {
+		const remainder = this.state.data.filter(todo => todo.id !== id);
+		this.setState({data: remainder});
+	}
+	render() {
+		return (
+			<div className={style.TodoApp}>
+				<Title title={'My board'} numberOfTasks={this.state.data.length}/>
+				<TodoList items={this.state.data} remove={this.removeTodo.bind(this)}/>
+			</div>
+		);
+	}
 }
-
 export default hot(module)(App);
